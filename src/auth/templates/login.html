@@ -1,0 +1,17 @@
+<div class="form-signin">
+    <form class="form-horizontal" name="loginForm" ng-submit="vm.domain.login()" novalidate>
+
+        <cmc-textbox cmc-model="vm.domain.user.userName"
+                     cmc-schema="vm.domain.userSchema.userName"
+                     cmc-name="userName"></cmc-textbox>
+
+        <cmc-textbox cmc-model="vm.domain.user.password"
+                     cmc-schema="vm.domain.userSchema.password"
+                     cmc-name="userPassword"></cmc-textbox>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+
+
+
+    </form>
+</div>

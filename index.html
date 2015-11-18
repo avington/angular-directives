@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+</head>
+<body>
+
+<ui-view></ui-view>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-aria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-messages.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+
+<!-- inject:js -->
+<script src="/src/app.module.js"></script>
+<script src="/src/auth/auth.module.js"></script>
+<script src="/src/app.routes.js"></script>
+<script src="/src/controls/controls.modules.js"></script>
+<script src="/src/auth/controllers/login.controller.js"></script>
+<script src="/src/auth/services/auth.service.js"></script>
+<script src="/src/controls/directives/textbox.directive.js"></script>
+<!-- endinject -->
+</body>
+</html>
